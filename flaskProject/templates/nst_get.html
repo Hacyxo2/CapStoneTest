@@ -98,33 +98,14 @@
 		height: auto;
 	}
 	.refer_img:hover{opacity: 0.5; cursor: pointer;}
-	.refer_img:onclick{opacity: 0.5; cursor: pointer;}
 	input[type="radio"]{
 		width: 25px;
 		height: 25px;
 	}
 </style>
 <body>
-	<!-- 상단 카테고리 -->
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand" href="/"><h3 style="color: #8C1DF3">Flask for DeepConvNet</h3></a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav">
-		      <li class="nav-item"><a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a></li>
-		      <li class="nav-item"><a class="nav-link" href="/convnet_info">ConvNet?</a></li>
-		      <li class="nav-item"><a class="nav-link" href="/object_detection_get">Object Detection</a></li>
-		      <li class="nav-item active"><a class="nav-link" href="../static/images/nst_get">Neural Style Transfer</a></li>
-		    </ul>
-		  </div>
-		</nav>
-	</header>
-
 	<div class="side-page-main-div"></div>
-		<h1 align="center" style="color: #8C1DF3">Neural Sytle Transfer</h1>
+		<h1 align="center" style="color: #8C1DF3">DeepLearning Test</h1>
 		<br>
 		<!-- Reference Image 라디오 버튼 선택 -->
 		<form align="center" action="/nst_post" method="POST" enctype="multipart/form-data">
